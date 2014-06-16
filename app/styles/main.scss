@@ -1,28 +1,18 @@
-body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
-}
-
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-    h1 {
-        font-size: 60px;
-        line-height: 1;
-        letter-spacing: -1px;
-    }
-}
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+.accordion {
+   margin: 50px;   
+   sect, textarea {
+      padding: 10px;
+      border: 1px solid black;
+      border-bottom: 0; 
+      }
+      a {
+        display: block;
+        color: black;
+        font-weight: bold;
+      }
+   }
+  textarea {
+     border-top: 0; 
+     font-size: 12px;
+  }
 }
