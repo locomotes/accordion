@@ -1,18 +1,36 @@
-.accordion {
-   margin: 50px;   
-   sect, textarea {
-      padding: 10px;
-      border: 1px solid black;
-      border-bottom: 0; 
-      }
-      a {
-        display: block;
-        color: black;
-        font-weight: bold;
-      }
-   }
-  textarea {
-     border-top: 0; 
-     font-size: 12px;
-  }
+@mixin boxtab {
+  height: 50px;
+  width: 500px;
+  background-color: #34DDDD;
+}
+
+@mixin boxinfo {
+  height: 150px;
+  width: 500px;
+  background-color: blue;
+  display: none;
+  color: white; 
+}
+
+.box1tab {
+  @include boxtab;
+}
+
+.box1info {
+  @include boxinfo;
+}
+.box2tab {
+  @include boxtab;
+}
+
+.box2info {
+  @include boxinfo;
+}
+
+.box3tab {
+  @include boxtab;
+}
+
+.box3info {
+  @include boxinfo;
 }
